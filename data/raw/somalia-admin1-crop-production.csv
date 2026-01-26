@@ -1,0 +1,1258 @@
+country_name,admin1_name,latitude,longitude,aggregation,indicator,value
+#country,#adm1+name,#geo+lat,#geo+lon,,#indicator+name,#indicator+num
+Somalia,Middle Juba,1.75,41.75,none,crop-production.mai.noirr.USD,270258.0
+Somalia,Middle Juba,1.75,42.25,none,crop-production.mai.noirr.USD,206423.0
+Somalia,Middle Juba,1.25,42.75,none,crop-production.mai.noirr.USD,88035.0
+Somalia,Middle Juba,0.75,42.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Middle Juba,0.75,43.25,none,crop-production.mai.noirr.USD,53175.0
+Somalia,Middle Juba,1.75,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Middle Juba,1.75,42.25,none,crop-production.mai.firr.USD,501219.0
+Somalia,Middle Juba,1.25,42.75,none,crop-production.mai.firr.USD,572675.0
+Somalia,Middle Juba,0.75,42.75,none,crop-production.mai.firr.USD,3079437.0
+Somalia,Middle Juba,0.75,43.25,none,crop-production.mai.firr.USD,562213.0
+Somalia,Middle Juba,1.75,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Juba,1.75,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Juba,1.25,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Juba,0.75,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Juba,0.75,43.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Juba,1.75,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Juba,1.75,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Juba,1.25,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Juba,0.75,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Juba,0.75,43.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Juba,1.75,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Juba,1.75,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Juba,1.25,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Juba,0.75,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Juba,0.75,43.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Juba,1.75,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Juba,1.75,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Juba,1.25,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Juba,0.75,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Juba,0.75,43.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Juba,1.75,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Juba,1.75,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Juba,1.25,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Juba,0.75,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Juba,0.75,43.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Juba,1.75,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Middle Juba,1.75,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Middle Juba,1.25,42.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Middle Juba,0.75,42.75,none,crop-production.ric.firr.USD,1155501.0
+Somalia,Middle Juba,0.75,43.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,1.25,41.25,none,crop-production.mai.noirr.USD,381927.0
+Somalia,Lower Juba,1.25,41.75,none,crop-production.mai.noirr.USD,351951.0
+Somalia,Lower Juba,1.25,42.25,none,crop-production.mai.noirr.USD,119798.0
+Somalia,Lower Juba,0.75,41.25,none,crop-production.mai.noirr.USD,291682.0
+Somalia,Lower Juba,0.75,41.75,none,crop-production.mai.noirr.USD,242760.0
+Somalia,Lower Juba,0.75,42.25,none,crop-production.mai.noirr.USD,262852.0
+Somalia,Lower Juba,0.25,41.25,none,crop-production.mai.noirr.USD,249739.0
+Somalia,Lower Juba,0.25,41.75,none,crop-production.mai.noirr.USD,219002.0
+Somalia,Lower Juba,0.25,42.25,none,crop-production.mai.noirr.USD,132333.0
+Somalia,Lower Juba,0.25,42.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,41.25,none,crop-production.mai.noirr.USD,274766.0
+Somalia,Lower Juba,-0.25,41.75,none,crop-production.mai.noirr.USD,131795.0
+Somalia,Lower Juba,-0.25,42.25,none,crop-production.mai.noirr.USD,198594.0
+Somalia,Lower Juba,-0.75,41.25,none,crop-production.mai.noirr.USD,151926.0
+Somalia,Lower Juba,-0.75,41.75,none,crop-production.mai.noirr.USD,110512.0
+Somalia,Lower Juba,-1.25,41.75,none,crop-production.mai.noirr.USD,105787.0
+Somalia,Lower Juba,1.25,41.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,1.25,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,1.25,42.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,0.75,41.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,0.75,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,0.75,42.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,0.25,41.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,0.25,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,0.25,42.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,0.25,42.75,none,crop-production.mai.firr.USD,5080402.0
+Somalia,Lower Juba,-0.25,41.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,-0.25,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,-0.25,42.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,-0.75,41.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,-0.75,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,-1.25,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Juba,1.25,41.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,1.25,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,1.25,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,0.75,41.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,0.75,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,0.75,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,0.25,41.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,0.25,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,0.25,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,0.25,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,41.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,-0.75,41.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,-0.75,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,-1.25,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Juba,1.25,41.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,1.25,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,1.25,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,0.75,41.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,0.75,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,0.75,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,0.25,41.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,0.25,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,0.25,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,0.25,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,-0.25,41.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,-0.25,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,-0.25,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,-0.75,41.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,-0.75,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,-1.25,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Juba,1.25,41.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,1.25,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,1.25,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,0.75,41.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,0.75,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,0.75,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,0.25,41.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,0.25,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,0.25,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,0.25,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,41.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,-0.75,41.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,-0.75,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,-1.25,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Juba,1.25,41.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,1.25,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,1.25,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,0.75,41.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,0.75,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,0.75,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,0.25,41.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,0.25,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,0.25,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,0.25,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,-0.25,41.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,-0.25,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,-0.25,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,-0.75,41.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,-0.75,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,-1.25,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Juba,1.25,41.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,1.25,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,1.25,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,0.75,41.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,0.75,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,0.75,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,0.25,41.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,0.25,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,0.25,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,0.25,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,41.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,-0.25,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,-0.75,41.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,-0.75,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,-1.25,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Juba,1.25,41.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,1.25,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,1.25,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,0.75,41.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,0.75,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,0.75,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,0.25,41.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,0.25,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,0.25,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,0.25,42.75,none,crop-production.ric.firr.USD,1725360.0
+Somalia,Lower Juba,-0.25,41.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,-0.25,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,-0.25,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,-0.75,41.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,-0.75,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Juba,-1.25,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,4.25,42.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Gedo,3.75,41.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Gedo,3.75,42.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Gedo,3.75,42.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Gedo,3.25,41.75,none,crop-production.mai.noirr.USD,77352.0
+Somalia,Gedo,3.25,42.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Gedo,3.25,42.75,none,crop-production.mai.noirr.USD,30320.0
+Somalia,Gedo,2.75,41.25,none,crop-production.mai.noirr.USD,504408.0
+Somalia,Gedo,2.75,41.75,none,crop-production.mai.noirr.USD,344633.0
+Somalia,Gedo,2.75,42.25,none,crop-production.mai.noirr.USD,60616.0
+Somalia,Gedo,2.25,41.25,none,crop-production.mai.noirr.USD,314763.0
+Somalia,Gedo,2.25,41.75,none,crop-production.mai.noirr.USD,198262.0
+Somalia,Gedo,2.25,42.25,none,crop-production.mai.noirr.USD,89865.0
+Somalia,Gedo,1.75,41.25,none,crop-production.mai.noirr.USD,432694.0
+Somalia,Gedo,4.25,42.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,3.75,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,3.75,42.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,3.75,42.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,3.25,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,3.25,42.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,3.25,42.75,none,crop-production.mai.firr.USD,63902.0
+Somalia,Gedo,2.75,41.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,2.75,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,2.75,42.25,none,crop-production.mai.firr.USD,14503.0
+Somalia,Gedo,2.25,41.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,2.25,41.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,2.25,42.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,1.75,41.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Gedo,4.25,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,3.75,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,3.75,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,3.75,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,3.25,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,3.25,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,3.25,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,2.75,41.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,2.75,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,2.75,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,2.25,41.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,2.25,41.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,2.25,42.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,1.75,41.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Gedo,4.25,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,3.75,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,3.75,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,3.75,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,3.25,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,3.25,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,3.25,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,2.75,41.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,2.75,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,2.75,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,2.25,41.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,2.25,41.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,2.25,42.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,1.75,41.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Gedo,4.25,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,3.75,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,3.75,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,3.75,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,3.25,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,3.25,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,3.25,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,2.75,41.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,2.75,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,2.75,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,2.25,41.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,2.25,41.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,2.25,42.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,1.75,41.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Gedo,4.25,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,3.75,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,3.75,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,3.75,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,3.25,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,3.25,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,3.25,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,2.75,41.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,2.75,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,2.75,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,2.25,41.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,2.25,41.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,2.25,42.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,1.75,41.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Gedo,4.25,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,3.75,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,3.75,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,3.75,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,3.25,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,3.25,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,3.25,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,2.75,41.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,2.75,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,2.75,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,2.25,41.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,2.25,41.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,2.25,42.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,1.75,41.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Gedo,4.25,42.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,3.75,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,3.75,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,3.75,42.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,3.25,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,3.25,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,3.25,42.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,2.75,41.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,2.75,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,2.75,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,2.25,41.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,2.25,41.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,2.25,42.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Gedo,1.75,41.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Woqooyi Galbeed,9.88,44.56,none,crop-production.mai.noirr.USD,0.0
+Somalia,Woqooyi Galbeed,9.88,44.56,none,crop-production.mai.firr.USD,0.0
+Somalia,Woqooyi Galbeed,9.88,44.56,none,crop-production.whe.noirr.USD,0.0
+Somalia,Woqooyi Galbeed,9.88,44.56,none,crop-production.whe.firr.USD,0.0
+Somalia,Woqooyi Galbeed,9.88,44.56,none,crop-production.soy.noirr.USD,0.0
+Somalia,Woqooyi Galbeed,9.88,44.56,none,crop-production.soy.firr.USD,0.0
+Somalia,Woqooyi Galbeed,9.88,44.56,none,crop-production.ric.noirr.USD,0.0
+Somalia,Woqooyi Galbeed,9.88,44.56,none,crop-production.ric.firr.USD,0.0
+Somalia,Togdheer,9.11,45.73,none,crop-production.mai.noirr.USD,0.0
+Somalia,Togdheer,9.11,45.73,none,crop-production.mai.firr.USD,0.0
+Somalia,Togdheer,9.11,45.73,none,crop-production.whe.noirr.USD,0.0
+Somalia,Togdheer,9.11,45.73,none,crop-production.whe.firr.USD,0.0
+Somalia,Togdheer,9.11,45.73,none,crop-production.soy.noirr.USD,0.0
+Somalia,Togdheer,9.11,45.73,none,crop-production.soy.firr.USD,0.0
+Somalia,Togdheer,9.11,45.73,none,crop-production.ric.noirr.USD,0.0
+Somalia,Togdheer,9.11,45.73,none,crop-production.ric.firr.USD,0.0
+Somalia,Sool,8.96,47.56,none,crop-production.mai.noirr.USD,0.0
+Somalia,Sool,8.96,47.56,none,crop-production.mai.firr.USD,0.0
+Somalia,Sool,8.96,47.56,none,crop-production.whe.noirr.USD,0.0
+Somalia,Sool,8.96,47.56,none,crop-production.whe.firr.USD,0.0
+Somalia,Sool,8.96,47.56,none,crop-production.soy.noirr.USD,0.0
+Somalia,Sool,8.96,47.56,none,crop-production.soy.firr.USD,0.0
+Somalia,Sool,8.96,47.56,none,crop-production.ric.noirr.USD,0.0
+Somalia,Sool,8.96,47.56,none,crop-production.ric.firr.USD,0.0
+Somalia,Sanaag,10.3,47.68,none,crop-production.mai.noirr.USD,0.0
+Somalia,Sanaag,10.3,47.68,none,crop-production.mai.firr.USD,0.0
+Somalia,Sanaag,10.3,47.68,none,crop-production.whe.noirr.USD,0.0
+Somalia,Sanaag,10.3,47.68,none,crop-production.whe.firr.USD,0.0
+Somalia,Sanaag,10.3,47.68,none,crop-production.soy.noirr.USD,0.0
+Somalia,Sanaag,10.3,47.68,none,crop-production.soy.firr.USD,0.0
+Somalia,Sanaag,10.3,47.68,none,crop-production.ric.noirr.USD,0.0
+Somalia,Sanaag,10.3,47.68,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,11.75,50.75,none,crop-production.mai.noirr.USD,37781.0
+Somalia,Bari,11.75,51.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,11.25,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,11.25,49.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,11.25,50.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,11.25,50.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,10.75,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,10.75,49.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,10.75,50.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,10.75,50.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,10.25,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,10.25,49.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,10.25,50.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,10.25,50.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,9.75,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,9.75,49.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,9.75,50.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,9.75,50.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,9.25,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,9.25,49.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,9.25,50.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,8.75,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,8.75,49.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,8.75,50.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bari,11.75,50.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,11.75,51.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,11.25,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,11.25,49.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,11.25,50.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,11.25,50.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,10.75,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,10.75,49.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,10.75,50.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,10.75,50.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,10.25,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,10.25,49.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,10.25,50.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,10.25,50.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,9.75,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,9.75,49.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,9.75,50.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,9.75,50.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,9.25,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,9.25,49.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,9.25,50.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,8.75,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,8.75,49.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,8.75,50.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bari,11.75,50.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,11.75,51.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,11.25,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,11.25,49.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,11.25,50.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,11.25,50.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,10.75,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,10.75,49.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,10.75,50.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,10.75,50.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,10.25,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,10.25,49.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,10.25,50.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,10.25,50.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,9.75,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,9.75,49.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,9.75,50.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,9.75,50.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,9.25,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,9.25,49.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,9.25,50.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,8.75,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,8.75,49.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,8.75,50.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bari,11.75,50.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,11.75,51.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,11.25,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,11.25,49.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,11.25,50.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,11.25,50.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,10.75,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,10.75,49.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,10.75,50.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,10.75,50.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,10.25,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,10.25,49.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,10.25,50.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,10.25,50.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,9.75,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,9.75,49.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,9.75,50.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,9.75,50.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,9.25,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,9.25,49.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,9.25,50.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,8.75,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,8.75,49.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,8.75,50.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bari,11.75,50.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,11.75,51.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,11.25,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,11.25,49.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,11.25,50.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,11.25,50.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,10.75,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,10.75,49.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,10.75,50.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,10.75,50.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,10.25,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,10.25,49.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,10.25,50.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,10.25,50.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,9.75,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,9.75,49.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,9.75,50.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,9.75,50.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,9.25,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,9.25,49.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,9.25,50.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,8.75,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,8.75,49.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,8.75,50.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bari,11.75,50.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,11.75,51.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,11.25,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,11.25,49.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,11.25,50.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,11.25,50.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,10.75,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,10.75,49.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,10.75,50.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,10.75,50.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,10.25,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,10.25,49.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,10.25,50.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,10.25,50.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,9.75,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,9.75,49.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,9.75,50.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,9.75,50.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,9.25,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,9.25,49.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,9.25,50.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,8.75,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,8.75,49.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,8.75,50.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bari,11.75,50.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,11.75,51.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,11.25,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,11.25,49.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,11.25,50.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,11.25,50.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,10.75,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,10.75,49.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,10.75,50.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,10.75,50.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,10.25,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,10.25,49.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,10.25,50.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,10.25,50.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,9.75,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,9.75,49.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,9.75,50.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,9.75,50.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,9.25,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,9.25,49.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,9.25,50.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,8.75,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,8.75,49.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,8.75,50.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bari,11.75,50.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,11.75,51.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,11.25,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,11.25,49.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,11.25,50.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,11.25,50.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,10.75,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,10.75,49.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,10.75,50.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,10.75,50.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,10.25,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,10.25,49.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,10.25,50.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,10.25,50.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,9.75,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,9.75,49.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,9.75,50.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,9.75,50.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,9.25,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,9.25,49.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,9.25,50.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,8.75,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,8.75,49.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bari,8.75,50.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,8.75,48.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,8.25,48.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,8.25,48.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,8.25,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,8.25,49.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,7.75,47.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,7.75,48.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,7.75,48.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,7.75,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,7.75,49.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Nugaal,8.75,48.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,8.25,48.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,8.25,48.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,8.25,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,8.25,49.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,7.75,47.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,7.75,48.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,7.75,48.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,7.75,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,7.75,49.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Nugaal,8.75,48.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,8.25,48.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,8.25,48.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,8.25,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,8.25,49.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,7.75,47.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,7.75,48.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,7.75,48.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,7.75,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,7.75,49.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Nugaal,8.75,48.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,8.25,48.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,8.25,48.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,8.25,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,8.25,49.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,7.75,47.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,7.75,48.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,7.75,48.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,7.75,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,7.75,49.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Nugaal,8.75,48.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,8.25,48.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,8.25,48.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,8.25,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,8.25,49.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,7.75,47.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,7.75,48.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,7.75,48.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,7.75,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,7.75,49.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Nugaal,8.75,48.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,8.25,48.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,8.25,48.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,8.25,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,8.25,49.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,7.75,47.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,7.75,48.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,7.75,48.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,7.75,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,7.75,49.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Nugaal,8.75,48.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,8.25,48.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,8.25,48.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,8.25,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,8.25,49.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,7.75,47.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,7.75,48.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,7.75,48.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,7.75,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,7.75,49.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Nugaal,8.75,48.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,8.25,48.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,8.25,48.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,8.25,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,8.25,49.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,7.75,47.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,7.75,48.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,7.75,48.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,7.75,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Nugaal,7.75,49.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,7.25,47.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,7.25,48.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,7.25,48.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,7.25,49.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,6.75,47.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,6.75,47.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,6.75,48.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,6.75,48.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,6.25,47.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,6.25,48.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,6.25,48.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,5.75,47.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,5.75,48.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,5.75,48.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,5.25,47.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,5.25,48.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,4.75,47.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Mudug,7.25,47.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,7.25,48.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,7.25,48.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,7.25,49.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,6.75,47.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,6.75,47.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,6.75,48.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,6.75,48.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,6.25,47.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,6.25,48.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,6.25,48.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,5.75,47.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,5.75,48.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,5.75,48.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,5.25,47.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,5.25,48.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,4.75,47.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Mudug,7.25,47.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,7.25,48.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,7.25,48.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,7.25,49.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,6.75,47.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,6.75,47.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,6.75,48.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,6.75,48.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,6.25,47.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,6.25,48.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,6.25,48.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,5.75,47.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,5.75,48.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,5.75,48.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,5.25,47.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,5.25,48.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,4.75,47.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Mudug,7.25,47.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,7.25,48.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,7.25,48.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,7.25,49.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,6.75,47.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,6.75,47.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,6.75,48.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,6.75,48.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,6.25,47.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,6.25,48.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,6.25,48.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,5.75,47.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,5.75,48.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,5.75,48.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,5.25,47.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,5.25,48.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,4.75,47.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Mudug,7.25,47.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,7.25,48.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,7.25,48.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,7.25,49.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,6.75,47.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,6.75,47.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,6.75,48.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,6.75,48.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,6.25,47.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,6.25,48.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,6.25,48.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,5.75,47.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,5.75,48.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,5.75,48.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,5.25,47.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,5.25,48.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,4.75,47.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Mudug,7.25,47.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,7.25,48.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,7.25,48.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,7.25,49.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,6.75,47.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,6.75,47.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,6.75,48.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,6.75,48.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,6.25,47.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,6.25,48.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,6.25,48.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,5.75,47.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,5.75,48.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,5.75,48.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,5.25,47.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,5.25,48.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,4.75,47.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Mudug,7.25,47.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,7.25,48.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,7.25,48.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,7.25,49.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,6.75,47.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,6.75,47.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,6.75,48.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,6.75,48.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,6.25,47.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,6.25,48.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,6.25,48.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,5.75,47.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,5.75,48.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,5.75,48.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,5.25,47.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,5.25,48.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,4.75,47.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Mudug,7.25,47.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,7.25,48.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,7.25,48.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,7.25,49.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,6.75,47.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,6.75,47.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,6.75,48.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,6.75,48.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,6.25,47.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,6.25,48.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,6.25,48.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,5.75,47.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,5.75,48.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,5.75,48.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,5.25,47.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,5.25,48.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Mudug,4.75,47.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,6.25,46.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,6.25,47.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,5.75,46.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,5.75,46.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,5.75,47.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,5.25,45.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,5.25,46.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,5.25,46.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,5.25,47.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,4.75,46.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,4.75,46.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,4.75,47.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,4.25,46.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,4.25,47.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,4.25,47.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,3.75,46.75,none,crop-production.mai.noirr.USD,60060.0
+Somalia,Galgaduud,3.75,47.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Galgaduud,6.25,46.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,6.25,47.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,5.75,46.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,5.75,46.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,5.75,47.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,5.25,45.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,5.25,46.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,5.25,46.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,5.25,47.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,4.75,46.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,4.75,46.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,4.75,47.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,4.25,46.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,4.25,47.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,4.25,47.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,3.75,46.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,3.75,47.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Galgaduud,6.25,46.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,6.25,47.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,5.75,46.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,5.75,46.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,5.75,47.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,5.25,45.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,5.25,46.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,5.25,46.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,5.25,47.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,4.75,46.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,4.75,46.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,4.75,47.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,4.25,46.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,4.25,47.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,4.25,47.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,3.75,46.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,3.75,47.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Galgaduud,6.25,46.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,6.25,47.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,5.75,46.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,5.75,46.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,5.75,47.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,5.25,45.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,5.25,46.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,5.25,46.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,5.25,47.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,4.75,46.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,4.75,46.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,4.75,47.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,4.25,46.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,4.25,47.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,4.25,47.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,3.75,46.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,3.75,47.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Galgaduud,6.25,46.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,6.25,47.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,5.75,46.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,5.75,46.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,5.75,47.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,5.25,45.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,5.25,46.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,5.25,46.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,5.25,47.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,4.75,46.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,4.75,46.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,4.75,47.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,4.25,46.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,4.25,47.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,4.25,47.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,3.75,46.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,3.75,47.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Galgaduud,6.25,46.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,6.25,47.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,5.75,46.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,5.75,46.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,5.75,47.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,5.25,45.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,5.25,46.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,5.25,46.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,5.25,47.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,4.75,46.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,4.75,46.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,4.75,47.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,4.25,46.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,4.25,47.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,4.25,47.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,3.75,46.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,3.75,47.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Galgaduud,6.25,46.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,6.25,47.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,5.75,46.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,5.75,46.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,5.75,47.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,5.25,45.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,5.25,46.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,5.25,46.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,5.25,47.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,4.75,46.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,4.75,46.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,4.75,47.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,4.25,46.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,4.25,47.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,4.25,47.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,3.75,46.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,3.75,47.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Galgaduud,6.25,46.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,6.25,47.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,5.75,46.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,5.75,46.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,5.75,47.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,5.25,45.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,5.25,46.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,5.25,46.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,5.25,47.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,4.75,46.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,4.75,46.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,4.75,47.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,4.25,46.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,4.25,47.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,4.25,47.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,3.75,46.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Galgaduud,3.75,47.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,4.75,44.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,4.75,45.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,4.75,45.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,4.25,44.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,4.25,45.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,4.25,45.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,4.25,46.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,3.75,45.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,3.75,45.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Hiraan,3.25,45.25,none,crop-production.mai.noirr.USD,34745.0
+Somalia,Hiraan,3.25,45.75,none,crop-production.mai.noirr.USD,87128.0
+Somalia,Hiraan,4.75,44.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Hiraan,4.75,45.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Hiraan,4.75,45.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Hiraan,4.25,44.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Hiraan,4.25,45.25,none,crop-production.mai.firr.USD,216765.0
+Somalia,Hiraan,4.25,45.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Hiraan,4.25,46.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Hiraan,3.75,45.25,none,crop-production.mai.firr.USD,104690.0
+Somalia,Hiraan,3.75,45.75,none,crop-production.mai.firr.USD,565729.0
+Somalia,Hiraan,3.25,45.25,none,crop-production.mai.firr.USD,570427.0
+Somalia,Hiraan,3.25,45.75,none,crop-production.mai.firr.USD,1708214.0
+Somalia,Hiraan,4.75,44.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,4.75,45.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,4.75,45.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,4.25,44.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,4.25,45.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,4.25,45.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,4.25,46.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,3.75,45.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,3.75,45.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,3.25,45.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,3.25,45.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Hiraan,4.75,44.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,4.75,45.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,4.75,45.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,4.25,44.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,4.25,45.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,4.25,45.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,4.25,46.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,3.75,45.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,3.75,45.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,3.25,45.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,3.25,45.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Hiraan,4.75,44.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,4.75,45.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,4.75,45.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,4.25,44.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,4.25,45.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,4.25,45.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,4.25,46.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,3.75,45.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,3.75,45.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,3.25,45.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,3.25,45.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Hiraan,4.75,44.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,4.75,45.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,4.75,45.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,4.25,44.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,4.25,45.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,4.25,45.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,4.25,46.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,3.75,45.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,3.75,45.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,3.25,45.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,3.25,45.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Hiraan,4.75,44.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,4.75,45.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,4.75,45.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,4.25,44.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,4.25,45.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,4.25,45.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,4.25,46.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,3.75,45.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,3.75,45.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,3.25,45.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,3.25,45.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Hiraan,4.75,44.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,4.75,45.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,4.75,45.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,4.25,44.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,4.25,45.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,4.25,45.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,4.25,46.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,3.75,45.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,3.75,45.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,3.25,45.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Hiraan,3.25,45.75,none,crop-production.ric.firr.USD,342099.0
+Somalia,Middle Shabelle,3.75,46.25,none,crop-production.mai.noirr.USD,99931.0
+Somalia,Middle Shabelle,3.25,46.25,none,crop-production.mai.noirr.USD,268326.0
+Somalia,Middle Shabelle,3.25,46.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Middle Shabelle,2.75,45.75,none,crop-production.mai.noirr.USD,276773.0
+Somalia,Middle Shabelle,2.75,46.25,none,crop-production.mai.noirr.USD,131463.0
+Somalia,Middle Shabelle,3.75,46.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Middle Shabelle,2.75,45.75,none,crop-production.mai.firr.USD,2571852.0
+Somalia,Middle Shabelle,2.75,46.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Middle Shabelle,3.75,46.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Shabelle,2.75,45.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Shabelle,2.75,46.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Middle Shabelle,3.75,46.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Shabelle,2.75,45.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Shabelle,2.75,46.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Middle Shabelle,3.75,46.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Shabelle,2.75,45.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Shabelle,2.75,46.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Middle Shabelle,3.75,46.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Shabelle,2.75,45.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Shabelle,2.75,46.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Middle Shabelle,3.75,46.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Shabelle,2.75,45.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Shabelle,2.75,46.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Middle Shabelle,3.75,46.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Middle Shabelle,3.25,46.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Middle Shabelle,2.75,45.75,none,crop-production.ric.firr.USD,546107.0
+Somalia,Middle Shabelle,2.75,46.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Banadir,2.11,45.43,none,crop-production.mai.noirr.USD,0.0
+Somalia,Banadir,2.11,45.43,none,crop-production.mai.firr.USD,0.0
+Somalia,Banadir,2.11,45.43,none,crop-production.whe.noirr.USD,0.0
+Somalia,Banadir,2.11,45.43,none,crop-production.whe.firr.USD,0.0
+Somalia,Banadir,2.11,45.43,none,crop-production.soy.noirr.USD,0.0
+Somalia,Banadir,2.11,45.43,none,crop-production.soy.firr.USD,0.0
+Somalia,Banadir,2.11,45.43,none,crop-production.ric.noirr.USD,0.0
+Somalia,Banadir,2.11,45.43,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Shabelle,3.25,44.75,none,crop-production.mai.noirr.USD,77942.0
+Somalia,Lower Shabelle,2.75,44.75,none,crop-production.mai.noirr.USD,62958.0
+Somalia,Lower Shabelle,2.75,45.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Lower Shabelle,2.25,44.75,none,crop-production.mai.noirr.USD,69393.0
+Somalia,Lower Shabelle,2.25,45.25,none,crop-production.mai.noirr.USD,155529.0
+Somalia,Lower Shabelle,1.75,43.75,none,crop-production.mai.noirr.USD,256561.0
+Somalia,Lower Shabelle,1.75,44.25,none,crop-production.mai.noirr.USD,150067.0
+Somalia,Lower Shabelle,1.75,44.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.25,none,crop-production.mai.noirr.USD,143563.0
+Somalia,Lower Shabelle,1.25,43.75,none,crop-production.mai.noirr.USD,106502.0
+Somalia,Lower Shabelle,3.25,44.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Shabelle,2.75,44.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Shabelle,2.75,45.25,none,crop-production.mai.firr.USD,1889606.0
+Somalia,Lower Shabelle,2.25,44.75,none,crop-production.mai.firr.USD,3206337.0
+Somalia,Lower Shabelle,2.25,45.25,none,crop-production.mai.firr.USD,2294606.0
+Somalia,Lower Shabelle,1.75,43.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.25,none,crop-production.mai.firr.USD,3756212.0
+Somalia,Lower Shabelle,1.75,44.75,none,crop-production.mai.firr.USD,7029743.0
+Somalia,Lower Shabelle,1.25,43.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.75,none,crop-production.mai.firr.USD,106345.0
+Somalia,Lower Shabelle,3.25,44.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,2.75,44.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,2.75,45.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,2.25,44.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,2.25,45.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,43.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Lower Shabelle,3.25,44.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,2.75,44.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,2.75,45.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,2.25,44.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,2.25,45.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,1.75,43.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.25,none,crop-production.whe.firr.USD,22888.0
+Somalia,Lower Shabelle,1.75,44.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Lower Shabelle,3.25,44.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,2.75,44.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,2.75,45.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,2.25,44.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,2.25,45.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,43.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Lower Shabelle,3.25,44.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,2.75,44.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,2.75,45.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,2.25,44.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,2.25,45.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,1.75,43.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Lower Shabelle,3.25,44.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,2.75,44.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,2.75,45.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,2.25,44.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,2.25,45.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,43.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Lower Shabelle,3.25,44.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Shabelle,2.75,44.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Shabelle,2.75,45.25,none,crop-production.ric.firr.USD,603357.0
+Somalia,Lower Shabelle,2.25,44.75,none,crop-production.ric.firr.USD,798711.0
+Somalia,Lower Shabelle,2.25,45.25,none,crop-production.ric.firr.USD,380887.0
+Somalia,Lower Shabelle,1.75,43.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Shabelle,1.75,44.25,none,crop-production.ric.firr.USD,1187010.0
+Somalia,Lower Shabelle,1.75,44.75,none,crop-production.ric.firr.USD,2592247.0
+Somalia,Lower Shabelle,1.25,43.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Lower Shabelle,1.25,43.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,3.75,43.75,none,crop-production.mai.noirr.USD,70465.0
+Somalia,Bay,3.25,43.25,none,crop-production.mai.noirr.USD,104160.0
+Somalia,Bay,3.25,43.75,none,crop-production.mai.noirr.USD,152587.0
+Somalia,Bay,3.25,44.25,none,crop-production.mai.noirr.USD,249160.0
+Somalia,Bay,2.75,42.75,none,crop-production.mai.noirr.USD,117063.0
+Somalia,Bay,2.75,43.25,none,crop-production.mai.noirr.USD,230371.0
+Somalia,Bay,2.75,43.75,none,crop-production.mai.noirr.USD,247468.0
+Somalia,Bay,2.75,44.25,none,crop-production.mai.noirr.USD,156677.0
+Somalia,Bay,2.25,42.75,none,crop-production.mai.noirr.USD,297700.0
+Somalia,Bay,2.25,43.25,none,crop-production.mai.noirr.USD,203758.0
+Somalia,Bay,2.25,43.75,none,crop-production.mai.noirr.USD,281047.0
+Somalia,Bay,2.25,44.25,none,crop-production.mai.noirr.USD,211697.0
+Somalia,Bay,1.75,42.75,none,crop-production.mai.noirr.USD,254877.0
+Somalia,Bay,1.75,43.25,none,crop-production.mai.noirr.USD,258461.0
+Somalia,Bay,3.75,43.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,3.25,43.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,3.25,43.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,3.25,44.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,2.75,42.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,2.75,43.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,2.75,43.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,2.75,44.25,none,crop-production.mai.firr.USD,66267.0
+Somalia,Bay,2.25,42.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,2.25,43.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,2.25,43.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,2.25,44.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,1.75,42.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,1.75,43.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bay,3.75,43.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,3.25,43.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,3.25,43.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,3.25,44.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,2.75,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,2.75,43.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,2.75,43.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,2.75,44.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,2.25,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,2.25,43.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,2.25,43.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,2.25,44.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,1.75,42.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,1.75,43.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bay,3.75,43.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,3.25,43.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,3.25,43.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,3.25,44.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,2.75,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,2.75,43.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,2.75,43.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,2.75,44.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,2.25,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,2.25,43.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,2.25,43.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,2.25,44.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,1.75,42.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,1.75,43.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bay,3.75,43.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,3.25,43.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,3.25,43.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,3.25,44.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,2.75,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,2.75,43.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,2.75,43.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,2.75,44.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,2.25,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,2.25,43.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,2.25,43.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,2.25,44.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,1.75,42.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,1.75,43.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bay,3.75,43.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,3.25,43.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,3.25,43.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,3.25,44.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,2.75,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,2.75,43.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,2.75,43.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,2.75,44.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,2.25,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,2.25,43.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,2.25,43.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,2.25,44.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,1.75,42.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,1.75,43.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bay,3.75,43.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,3.25,43.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,3.25,43.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,3.25,44.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,2.75,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,2.75,43.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,2.75,43.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,2.75,44.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,2.25,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,2.25,43.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,2.25,43.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,2.25,44.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,1.75,42.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,1.75,43.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bay,3.75,43.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,3.25,43.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,3.25,43.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,3.25,44.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,2.75,42.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,2.75,43.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,2.75,43.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,2.75,44.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,2.25,42.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,2.25,43.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,2.25,43.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,2.25,44.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,1.75,42.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bay,1.75,43.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bakool,4.75,43.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bakool,4.75,44.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bakool,4.25,43.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bakool,4.25,43.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bakool,4.25,44.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bakool,3.75,43.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bakool,3.75,44.25,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bakool,3.75,44.75,none,crop-production.mai.noirr.USD,0.0
+Somalia,Bakool,4.75,43.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bakool,4.75,44.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bakool,4.25,43.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bakool,4.25,43.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bakool,4.25,44.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bakool,3.75,43.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bakool,3.75,44.25,none,crop-production.mai.firr.USD,0.0
+Somalia,Bakool,3.75,44.75,none,crop-production.mai.firr.USD,0.0
+Somalia,Bakool,4.75,43.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bakool,4.75,44.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bakool,4.25,43.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bakool,4.25,43.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bakool,4.25,44.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bakool,3.75,43.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bakool,3.75,44.25,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bakool,3.75,44.75,none,crop-production.whe.noirr.USD,0.0
+Somalia,Bakool,4.75,43.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bakool,4.75,44.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bakool,4.25,43.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bakool,4.25,43.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bakool,4.25,44.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bakool,3.75,43.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bakool,3.75,44.25,none,crop-production.whe.firr.USD,0.0
+Somalia,Bakool,3.75,44.75,none,crop-production.whe.firr.USD,0.0
+Somalia,Bakool,4.75,43.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bakool,4.75,44.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bakool,4.25,43.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bakool,4.25,43.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bakool,4.25,44.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bakool,3.75,43.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bakool,3.75,44.25,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bakool,3.75,44.75,none,crop-production.soy.noirr.USD,0.0
+Somalia,Bakool,4.75,43.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bakool,4.75,44.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bakool,4.25,43.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bakool,4.25,43.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bakool,4.25,44.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bakool,3.75,43.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bakool,3.75,44.25,none,crop-production.soy.firr.USD,0.0
+Somalia,Bakool,3.75,44.75,none,crop-production.soy.firr.USD,0.0
+Somalia,Bakool,4.75,43.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bakool,4.75,44.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bakool,4.25,43.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bakool,4.25,43.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bakool,4.25,44.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bakool,3.75,43.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bakool,3.75,44.25,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bakool,3.75,44.75,none,crop-production.ric.noirr.USD,0.0
+Somalia,Bakool,4.75,43.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bakool,4.75,44.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bakool,4.25,43.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bakool,4.25,43.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Bakool,4.25,44.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bakool,3.75,43.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bakool,3.75,44.25,none,crop-production.ric.firr.USD,0.0
+Somalia,Bakool,3.75,44.75,none,crop-production.ric.firr.USD,0.0
+Somalia,Awdal,10.57,43.38,none,crop-production.mai.noirr.USD,0.0
+Somalia,Awdal,10.57,43.38,none,crop-production.mai.firr.USD,0.0
+Somalia,Awdal,10.57,43.38,none,crop-production.whe.noirr.USD,0.0
+Somalia,Awdal,10.57,43.38,none,crop-production.whe.firr.USD,0.0
+Somalia,Awdal,10.57,43.38,none,crop-production.soy.noirr.USD,0.0
+Somalia,Awdal,10.57,43.38,none,crop-production.soy.firr.USD,0.0
+Somalia,Awdal,10.57,43.38,none,crop-production.ric.noirr.USD,0.0
+Somalia,Awdal,10.57,43.38,none,crop-production.ric.firr.USD,0.0
