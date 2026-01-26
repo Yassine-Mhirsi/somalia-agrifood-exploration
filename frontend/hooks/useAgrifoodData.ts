@@ -20,7 +20,7 @@ export function useAgrifoodData() {
   const [error, setError] = useState<string | null>(null);
 
   const [filters, setFilters] = useState<Filters>({
-    selectedYear: null,
+    yearRange: null,
     selectedRegions: [],
     selectedCommodities: [],
   });
@@ -36,6 +36,15 @@ export function useAgrifoodData() {
         }
         const json: ApiResponse = await response.json();
         setData(json.data);
+        
+        // Initialize year range after data is loaded
+        const years = json.data.map((d) => d.year);
+        if (years.length > 0) {
+          const minYear = Math.min(...years);
+          const maxYear = Math.max(...years);
+          setFilters(prev => ({ ...prev, yearRange: [minYear, maxYear] }));
+        }
+        
         setError(null);
       } catch (e) {
         setError(e instanceof Error ? e.message : "Failed to fetch data");
@@ -57,8 +66,10 @@ export function useAgrifoodData() {
   // Apply filters to data
   const filteredData = useMemo(() => {
     return data.filter((record) => {
-      if (filters.selectedYear && record.year !== filters.selectedYear) {
-        return false;
+      if (filters.yearRange) {
+        if (record.year < filters.yearRange[0] || record.year > filters.yearRange[1]) {
+          return false;
+        }
       }
       if (
         filters.selectedRegions.length > 0 &&
