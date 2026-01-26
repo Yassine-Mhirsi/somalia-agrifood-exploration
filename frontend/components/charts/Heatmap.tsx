@@ -100,7 +100,10 @@ export default function Heatmap({
         show: true,
         x: e.clientX - rect.left,
         y: e.clientY - rect.top,
-        content: value !== null ? `${region} / ${commodity}: $${value.toFixed(2)}` : `${region} / ${commodity}: No data`,
+        content:
+          value !== null && value !== undefined
+            ? `${region} / ${commodity}: $${value.toFixed(2)}`
+            : `${region} / ${commodity}: No data`,
       });
     }
   };
@@ -169,7 +172,11 @@ export default function Heatmap({
                   y={yScale(region) || 0}
                   width={xScale.bandwidth()}
                   height={yScale.bandwidth()}
-                  fill={value !== null ? colorScale(value) : "#f4f4f5"}
+                  fill={
+                    value !== null && value !== undefined
+                      ? colorScale(value)
+                      : "#f4f4f5"
+                  }
                   rx={2}
                   className="transition-opacity hover:opacity-80 cursor-pointer"
                   onMouseMove={(e) => handleMouseMove(e, region, commodity)}
