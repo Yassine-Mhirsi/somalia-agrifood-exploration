@@ -98,6 +98,9 @@ def prepare_data():
     df_prices.drop(columns=['Year'], inplace=True)
     print("Food security indicators integration completed ✅")
 
+    # Add unique ID for each record
+    df_prices.insert(0, 'id', range(1, len(df_prices) + 1))
+
     # 6. Save integrated data
     output_path_csv = 'data/processed/integrated_agrifood_data.csv'
     db_path = 'data/processed/agrifood.db'
