@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import sqlite3
 from dotenv import load_dotenv
 from ai_components.region_matcher import get_region_mapping
 
@@ -98,10 +99,19 @@ def prepare_data():
     print("Food security indicators integration completed ✅")
 
     # 6. Save integrated data
-    output_path = 'data/processed/integrated_agrifood_data.csv'
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    df_prices.to_csv(output_path, index=False)
-    print(f"Final integrated dataset saved to {output_path} ✅")
+    output_path_csv = 'data/processed/integrated_agrifood_data.csv'
+    db_path = 'data/processed/agrifood.db'
+    os.makedirs(os.path.dirname(output_path_csv), exist_ok=True)
+    
+    # Save to CSV
+    df_prices.to_csv(output_path_csv, index=False)
+    print(f"Final integrated dataset saved to {output_path_csv} ✅")
+
+    # Save to SQLite
+    conn = sqlite3.connect(db_path)
+    df_prices.to_sql('integrated_data', conn, if_exists='replace', index=False)
+    conn.close()
+    print(f"Final integrated dataset saved as table 'integrated_data' in {db_path} ✅")
 
     return df_prices
 
