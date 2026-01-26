@@ -75,9 +75,9 @@ export default function Dashboard() {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 py-6">
+      <main className="max-w-7xl mx-auto px-4 py-4">
         {/* Filters */}
-        <div className="mb-6">
+        <div className="mb-4">
           <FilterPanel
             filters={filters}
             filterOptions={filterOptions}
@@ -86,7 +86,7 @@ export default function Dashboard() {
         </div>
 
         {/* Dashboard Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {/* Choropleth Map */}
           <Card title="Average Food Prices by Region">
             <div className="flex justify-center">

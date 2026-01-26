@@ -71,9 +71,9 @@ export default function FilterPanel({
   const maxYear = filterOptions.years.length > 0 ? filterOptions.years[filterOptions.years.length - 1] : 2024;
 
   return (
-    <div className="bg-white dark:bg-zinc-900 rounded-2xl shadow-sm border border-zinc-200 dark:border-zinc-800 p-6">
+    <div className="bg-white dark:bg-zinc-900 rounded-2xl shadow-sm border border-zinc-200 dark:border-zinc-800 p-4">
       {/* Primary Filter: Time Interval */}
-      <div className="max-w-3xl mx-auto mb-6">
+      <div className="max-w-3xl mx-auto mb-4">
         {filterOptions.years.length > 0 && (
           <RangeSlider
             min={minYear}
@@ -86,10 +86,10 @@ export default function FilterPanel({
       </div>
 
       {/* Expand/Collapse Toggle */}
-      <div className="flex justify-center mb-4">
+      <div className="flex justify-center mb-2">
         <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+          className="flex items-center gap-2 px-4 py-1 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
         >
           {isExpanded ? (
             <>
@@ -111,7 +111,7 @@ export default function FilterPanel({
 
       {/* Collapsible Section: Regions and Commodities */}
       {isExpanded && (
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8 pt-6 border-t border-zinc-100 dark:border-zinc-800 animate-in fade-in slide-in-from-top-4 duration-300">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4 pt-4 border-t border-zinc-100 dark:border-zinc-800 animate-in fade-in slide-in-from-top-4 duration-300">
           <Dropdown
             label="Regions"
             options={regionOptions}
@@ -133,7 +133,7 @@ export default function FilterPanel({
           {hasActiveFilters && (
             <button
               onClick={clearFilters}
-              className="flex items-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider
+              className="flex items-center gap-2 px-4 py-2 text-xs font-bold uppercase tracking-wider
                 text-zinc-500 dark:text-zinc-400
                 hover:text-red-600 dark:hover:text-red-400
                 hover:bg-red-50 dark:hover:bg-red-900/10
@@ -160,7 +160,7 @@ export default function FilterPanel({
 
       {/* Active Filters Summary */}
       {(hasActiveFilters || (filters.yearRange && (filters.yearRange[0] !== minYear || filters.yearRange[1] !== maxYear))) && (
-        <div className="mt-2 flex flex-wrap justify-center gap-2">
+        <div className="mt-1 flex flex-wrap justify-center gap-2">
           {filters.yearRange && (filters.yearRange[0] !== minYear || filters.yearRange[1] !== maxYear) && (
             <span className="inline-flex items-center gap-1.5 px-3 py-1 text-[10px] font-bold uppercase tracking-tight bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full">
               {filters.yearRange[0]} - {filters.yearRange[1]}
