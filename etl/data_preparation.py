@@ -14,6 +14,8 @@ def validate_config():
     if not key or key == "your_google_api_key_here":
         print("\n" + "!"*60)
         print("ERROR: GOOGLE_API_KEY is missing!")
+        print("Please visit https://aistudio.google.com/api-keys to get your own API key")
+        print("Note that google has a generous free tier for non commercial use, so dont worry😉")
         print("Please create a .env file in the root directory and add:")
         print("GOOGLE_API_KEY=your_actual_key_here")
         print("!"*60 + "\n")
