@@ -141,18 +141,37 @@ export default function ChoroplethMap({
               : "#d1d5db";
 
             const pathD = pathGenerator(feature as unknown as GeoPermissibleObjects);
+            const [labelX, labelY] = pathGenerator.centroid(
+              feature as unknown as GeoPermissibleObjects
+            );
+            const canRenderLabel =
+              Number.isFinite(labelX) && Number.isFinite(labelY);
 
             return (
-              <path
-                key={`${geoName}-${i}`}
-                d={pathD || ""}
-                fill={fillColor}
-                stroke="#374151"
-                strokeWidth={0.5}
-                className="transition-all duration-200 hover:brightness-110 cursor-pointer"
-                onMouseMove={(e) => handleMouseMove(e, feature)}
-                onMouseLeave={handleMouseLeave}
-              />
+              <g key={`${geoName}-${i}`}>
+                <path
+                  d={pathD || ""}
+                  fill={fillColor}
+                  stroke="#374151"
+                  strokeWidth={0.5}
+                  className="transition-all duration-200 hover:brightness-110 cursor-pointer"
+                  onMouseMove={(e) => handleMouseMove(e, feature)}
+                  onMouseLeave={handleMouseLeave}
+                />
+                {canRenderLabel && (
+                  <text
+                    x={labelX}
+                    y={labelY}
+                    textAnchor="middle"
+                    fontSize={8}
+                    fill="#111827"
+                    pointerEvents="none"
+                    className="select-none"
+                  >
+                    {dbName}
+                  </text>
+                )}
+              </g>
             );
           })}
         </g>

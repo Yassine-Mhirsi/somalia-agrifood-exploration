@@ -1,9 +1,7 @@
 "use client";
 
-import { useState } from "react";
 import { Filters, FilterOptions } from "@/lib/types";
 import Dropdown from "./ui/Dropdown";
-import RangeSlider from "./ui/RangeSlider";
 
 interface FilterPanelProps {
   filters: Filters;
@@ -16,12 +14,11 @@ export default function FilterPanel({
   filterOptions,
   onFiltersChange,
 }: FilterPanelProps) {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const handleYearRangeChange = (value: [number, number]) => {
+  const handleYearChange = (value: string | string[]) => {
+    const yearValue = Array.isArray(value) ? value[0] : value;
     onFiltersChange({
       ...filters,
-      yearRange: value,
+      selectedYear: yearValue ? parseInt(yearValue, 10) : null,
     });
   };
 
@@ -42,18 +39,23 @@ export default function FilterPanel({
   };
 
   const clearFilters = () => {
-    const minYear = filterOptions.years[0];
-    const maxYear = filterOptions.years[filterOptions.years.length - 1];
     onFiltersChange({
-      yearRange: [minYear, maxYear],
+      selectedYear: null,
       selectedRegions: [],
       selectedCommodities: [],
     });
   };
 
   const hasActiveFilters =
+    filters.selectedYear !== null ||
     filters.selectedRegions.length > 0 ||
     filters.selectedCommodities.length > 0;
+
+  // Create year options
+  const yearOptions = filterOptions.years.map((year) => ({
+    value: year.toString(),
+    label: year.toString(),
+  }));
 
   // Create region options
   const regionOptions = filterOptions.regions.map((region) => ({
@@ -67,121 +69,103 @@ export default function FilterPanel({
     label: commodity,
   }));
 
-  const minYear = filterOptions.years.length > 0 ? filterOptions.years[0] : 1995;
-  const maxYear = filterOptions.years.length > 0 ? filterOptions.years[filterOptions.years.length - 1] : 2024;
-
   return (
-    <div className="bg-white dark:bg-zinc-900 rounded-2xl shadow-sm border border-zinc-200 dark:border-zinc-800 p-4">
-      {/* Primary Filter: Time Interval */}
-      <div className="max-w-3xl mx-auto mb-4">
-        {filterOptions.years.length > 0 && (
-          <RangeSlider
-            min={minYear}
-            max={maxYear}
-            value={filters.yearRange || [minYear, maxYear]}
-            onChange={handleYearRangeChange}
-            label="Time Interval"
-          />
+    <div className="bg-white dark:bg-zinc-900 rounded-xl shadow-sm border border-zinc-200 dark:border-zinc-800 p-5">
+      <div className="flex flex-wrap items-end gap-4">
+        {/* Year Filter */}
+        <Dropdown
+          label="Year"
+          options={yearOptions}
+          value={filters.selectedYear?.toString() || ""}
+          onChange={handleYearChange}
+          placeholder="All Years"
+        />
+
+        {/* Region Filter */}
+        <Dropdown
+          label="Regions"
+          options={regionOptions}
+          value={filters.selectedRegions}
+          onChange={handleRegionChange}
+          placeholder="All Regions"
+          multiple
+        />
+
+        {/* Commodity Filter */}
+        <Dropdown
+          label="Commodities"
+          options={commodityOptions}
+          value={filters.selectedCommodities}
+          onChange={handleCommodityChange}
+          placeholder="All Commodities"
+          multiple
+        />
+
+        {/* Clear Filters Button */}
+        {hasActiveFilters && (
+          <button
+            onClick={clearFilters}
+            className="flex items-center gap-2 px-4 py-2.5 text-sm font-medium
+              text-zinc-600 dark:text-zinc-400
+              hover:text-zinc-900 dark:hover:text-zinc-100
+              bg-zinc-100 dark:bg-zinc-800
+              hover:bg-zinc-200 dark:hover:bg-zinc-700
+              rounded-lg transition-all duration-200"
+          >
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            Clear Filters
+          </button>
         )}
       </div>
 
-      {/* Expand/Collapse Toggle */}
-      <div className="flex justify-center mb-2">
-        <button
-          onClick={() => setIsExpanded(!isExpanded)}
-          className="flex items-center gap-2 px-4 py-1 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
-        >
-          {isExpanded ? (
-            <>
-              <span>Hide Advanced Filters</span>
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
-              </svg>
-            </>
-          ) : (
-            <>
-              <span>Show Advanced Filters</span>
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </>
-          )}
-        </button>
-      </div>
-
-      {/* Collapsible Section: Regions and Commodities */}
-      {isExpanded && (
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4 pt-4 border-t border-zinc-100 dark:border-zinc-800 animate-in fade-in slide-in-from-top-4 duration-300">
-          <Dropdown
-            label="Regions"
-            options={regionOptions}
-            value={filters.selectedRegions}
-            onChange={handleRegionChange}
-            placeholder="All Regions"
-            multiple
-          />
-
-          <Dropdown
-            label="Commodities"
-            options={commodityOptions}
-            value={filters.selectedCommodities}
-            onChange={handleCommodityChange}
-            placeholder="All Commodities"
-            multiple
-          />
-
-          {hasActiveFilters && (
-            <button
-              onClick={clearFilters}
-              className="flex items-center gap-2 px-4 py-2 text-xs font-bold uppercase tracking-wider
-                text-zinc-500 dark:text-zinc-400
-                hover:text-red-600 dark:hover:text-red-400
-                hover:bg-red-50 dark:hover:bg-red-900/10
-                rounded-xl transition-all duration-200"
-            >
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-              Reset
-            </button>
-          )}
-        </div>
-      )}
-
       {/* Active Filters Summary */}
-      {(hasActiveFilters || (filters.yearRange && (filters.yearRange[0] !== minYear || filters.yearRange[1] !== maxYear))) && (
-        <div className="mt-1 flex flex-wrap justify-center gap-2">
-          {filters.yearRange && (filters.yearRange[0] !== minYear || filters.yearRange[1] !== maxYear) && (
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 text-[10px] font-bold uppercase tracking-tight bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full">
-              {filters.yearRange[0]} - {filters.yearRange[1]}
-            </span>
-          )}
-          {filters.selectedRegions.map((region) => (
-            <span
-              key={region}
-              className="inline-flex items-center gap-1.5 px-3 py-1 text-[10px] font-bold uppercase tracking-tight bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 rounded-full"
-            >
-              {region}
-            </span>
-          ))}
-          {filters.selectedCommodities.map((commodity) => (
-            <span
-              key={commodity}
-              className="inline-flex items-center gap-1.5 px-3 py-1 text-[10px] font-bold uppercase tracking-tight bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 rounded-full"
-            >
-              {commodity}
-            </span>
-          ))}
+      {hasActiveFilters && (
+        <div className="mt-4 pt-4 border-t border-zinc-100 dark:border-zinc-800">
+          <div className="flex flex-wrap gap-2">
+            {filters.selectedYear && (
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-medium bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full">
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                {filters.selectedYear}
+              </span>
+            )}
+            {filters.selectedRegions.map((region) => (
+              <span
+                key={region}
+                className="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-medium bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-full"
+              >
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                {region}
+              </span>
+            ))}
+            {filters.selectedCommodities.map((commodity) => (
+              <span
+                key={commodity}
+                className="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-medium bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded-full"
+              >
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                </svg>
+                {commodity}
+              </span>
+            ))}
+          </div>
         </div>
       )}
     </div>
