@@ -90,7 +90,11 @@ export default function Dashboard() {
         {/* Dashboard Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {/* Choropleth Map */}
-          <Card title="Average Food Prices by Region in Somalia">
+          <Card
+            title="Average Food Prices by Region in Somalia"
+            chartType="choropleth"
+            enableAIAnalysis
+          >
             <div className="flex justify-center">
               <ChoroplethMap
                 data={aggregations.regionAggregation}
@@ -101,7 +105,11 @@ export default function Dashboard() {
           </Card>
 
           {/* Line Chart */}
-          <Card title="Food Prices Trends Over Time in Somalia">
+          <Card
+            title="Food Prices Trends Over Time in Somalia"
+            chartType="line"
+            enableAIAnalysis
+          >
             <LineChart
               data={aggregations.yearlyTrends}
               dataByCategory={
@@ -116,7 +124,11 @@ export default function Dashboard() {
           </Card>
 
           {/* Bar Chart */}
-          <Card title="Top Commodities by Average Price">
+          <Card
+            title="Top Commodities by Average Price"
+            chartType="bar"
+            enableAIAnalysis
+          >
             <BarChart
               data={aggregations.commodityComparison}
               width={500}
@@ -126,7 +138,11 @@ export default function Dashboard() {
           </Card>
 
           {/* Crop Production Distribution */}
-          <Card title="Crop Production Distribution by Region (2018)">
+          <Card
+            title="Crop Production Distribution by Region (2018)"
+            chartType="grouped-bar"
+            enableAIAnalysis
+          >
             <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-3">
               Compare 2018 production value across regions to see where output is most concentrated.
             </p>
@@ -139,7 +155,12 @@ export default function Dashboard() {
           </Card>
 
           {/* Production vs Price Scatter */}
-          <Card title="Production vs Food Prices (2018)" className="lg:col-span-2">
+          <Card
+            title="Production vs Food Prices (2018)"
+            className="lg:col-span-2"
+            chartType="scatter"
+            enableAIAnalysis
+          >
             <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-3">
               Explore how production value aligns with average food prices by commodity and region.
             </p>
