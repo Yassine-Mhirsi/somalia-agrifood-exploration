@@ -8,7 +8,7 @@ app = FastAPI(title="Somalia Agrifood Exploration API")
 # Enable CORS for frontend integration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # For prototype, allow all. In production, restrict this.
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

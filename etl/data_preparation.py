@@ -3,11 +3,24 @@ import os
 import sqlite3
 from dotenv import load_dotenv
 from ai_components.region_matcher import get_region_mapping
+from ai_components.commodity_filter import filter_commodities
 
 # Load environment variables
 load_dotenv()
 
+def validate_config():
+    """Ensure the Google API Key is present before starting the ETL."""
+    key = os.getenv("GOOGLE_API_KEY")
+    if not key or key == "your_google_api_key_here":
+        print("\n" + "!"*60)
+        print("ERROR: GOOGLE_API_KEY is missing!")
+        print("Please create a .env file in the root directory and add:")
+        print("GOOGLE_API_KEY=your_actual_key_here")
+        print("!"*60 + "\n")
+        exit(1)
+
 def prepare_data():
+    validate_config()
     # 1. Load Food Prices Data
     fp_path = 'data/raw/wfp_food_prices_som.csv'
     df_prices = pd.read_csv(fp_path, skiprows=[1])
@@ -16,6 +29,11 @@ def prepare_data():
     # Keep only relevant columns
     df_prices = df_prices[['date', 'admin1', 'commodity', 'usdprice']]
     print("Keeping relevant columns... ✅")
+
+    # AI-based Commodity Filtering
+    unique_commodities = df_prices['commodity'].unique().tolist()
+    agrifood_commodities = filter_commodities(unique_commodities)
+    df_prices = df_prices[df_prices['commodity'].isin(agrifood_commodities)]
 
     # Extract year, filter for 2000-2024, remove duplicates
     df_prices['year'] = df_prices['date'].str[:4].astype(int)
@@ -120,7 +138,3 @@ def prepare_data():
 
 if __name__ == "__main__":
     integrated_df = prepare_data()
-    # print("\nIntegrated Data (Sample with Indicators):")
-    # # Show rows where we have security indicators
-    # sample = integrated_df.dropna(subset=['prevalence_undernourishment_pct'], how='all').head()
-    # print(sample)

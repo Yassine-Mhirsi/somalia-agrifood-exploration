@@ -36,7 +36,7 @@ def get_region_mapping(admin1_prices, admin1_crop, max_retries=3):
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(
-                model="gemini-3-flash-preview",
+                model="gemini-2.5-flash",
                 messages=[
                     {"role": "system", "content": "You are a data engineering assistant specializing in geographic data mapping."},
                     {"role": "user", "content": prompt}
@@ -54,7 +54,7 @@ def get_region_mapping(admin1_prices, admin1_crop, max_retries=3):
             
         except Exception as e:
             if attempt < max_retries - 1:
-                print(f"oops 🤭 looks like the model got a bit confused: {e}. Let's try again! (Attempt {attempt + 1}/{max_retries})")
+                print(f"oops 🤭 looks like the model got a bit confused. Let's try again! (Attempt {attempt + 1}/{max_retries})")
             else:
-                print("Oh no! 😱 The AI failed us after 3 tries. I think something is wrong on your end 🫵 Please check your API key is valid or/and and try again.")
+                print(f"Oh no! 😱 The AI failed us after {max_retries} tries. I think something is wrong on your end 🫵 Please check your API key is valid or/and and try again. : \n {e}")
                 raise e
