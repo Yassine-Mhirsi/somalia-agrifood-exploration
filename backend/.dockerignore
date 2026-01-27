@@ -1,10 +1,4 @@
-**/node_modules
-**/.next
-**/build
-**/.venv
-**/.git
-.env
-data/processed/*.db
+# pycache
 **/__pycache__/
 *.pyc
 *.pyo
@@ -17,3 +11,6 @@ data/processed/*.db
 *.pyzwzw
 *.pyzwzwz
 *.pyzwzwzw
+*.pyzwzwzwz
+*.pyzwzwzwzw
+*.pyzwzwzwzwz
