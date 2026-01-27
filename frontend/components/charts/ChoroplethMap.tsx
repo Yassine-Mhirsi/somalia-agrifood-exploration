@@ -118,7 +118,7 @@ export default function ChoroplethMap({
         x: e.clientX - rect.left,
         y: e.clientY - rect.top,
         content: regionData
-          ? `${dbName}: $${regionData.avgPrice.toFixed(2)} avg`
+          ? `${dbName}: $${regionData.avgPrice.toFixed(2)} (avg)`
           : `${dbName}: No data`,
       });
     }

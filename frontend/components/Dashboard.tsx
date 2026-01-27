@@ -6,7 +6,8 @@ import Card from "./ui/Card";
 import ChoroplethMap from "./charts/ChoroplethMap";
 import LineChart from "./charts/LineChart";
 import BarChart from "./charts/BarChart";
-import Heatmap from "./charts/Heatmap";
+import CropProductionBarChart from "./charts/CropProductionBarChart";
+import ProductionVsPriceScatter from "./charts/ProductionVsPriceScatter";
 
 export default function Dashboard() {
   const {
@@ -17,6 +18,7 @@ export default function Dashboard() {
     filterOptions,
     aggregations,
     data,
+    rawData,
   } = useAgrifoodData();
 
   if (loading) {
@@ -88,7 +90,7 @@ export default function Dashboard() {
         {/* Dashboard Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {/* Choropleth Map */}
-          <Card title="Average Food Prices by Region">
+          <Card title="Average Food Prices by Region in Somalia">
             <div className="flex justify-center">
               <ChoroplethMap
                 data={aggregations.regionAggregation}
@@ -99,7 +101,7 @@ export default function Dashboard() {
           </Card>
 
           {/* Line Chart */}
-          <Card title="Price Trends Over Time">
+          <Card title="Food Prices Trends Over Time in Somalia">
             <LineChart
               data={aggregations.yearlyTrends}
               dataByCategory={
@@ -123,16 +125,30 @@ export default function Dashboard() {
             />
           </Card>
 
-          {/* Heatmap */}
-          <Card title="Price Heatmap: Regions vs Commodities">
-            <div className="overflow-x-auto">
-              <Heatmap
-                data={aggregations.heatmapData}
-                width={550}
-                height={450}
-                maxCommodities={10}
-              />
-            </div>
+          {/* Crop Production Distribution */}
+          <Card title="Crop Production Distribution by Region (2018)">
+            <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-3">
+              Compare 2018 production value across regions to see where output is most concentrated.
+            </p>
+            <CropProductionBarChart
+              data={rawData}
+              selectedRegions={filters.selectedRegions}
+              width={520}
+              height={420}
+            />
+          </Card>
+
+          {/* Production vs Price Scatter */}
+          <Card title="Production vs Food Prices (2018)" className="lg:col-span-2">
+            <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-3">
+              Explore how production value aligns with average food prices by commodity and region.
+            </p>
+            <ProductionVsPriceScatter
+              data={rawData}
+              selectedRegions={filters.selectedRegions}
+              width={1040}
+              height={460}
+            />
           </Card>
         </div>
 
