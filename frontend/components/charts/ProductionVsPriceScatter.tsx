@@ -73,12 +73,11 @@ export default function ProductionVsPriceScatter({
   const commodityOptions = useMemo(() => {
     const commodities = new Set(
       data
-        .filter(
-          (record) =>
-            record.year === YEAR_SNAPSHOT &&
-            record.crop_production_value_usd !== null &&
-            record.crop_production_value_usd > 0
-        )
+        .filter((record) => {
+          if (record.year !== YEAR_SNAPSHOT) return false;
+          if (record.crop_production_value_usd == null) return false;
+          return record.crop_production_value_usd > 0;
+        })
         .map((record) => record.commodity)
     );
     return Array.from(commodities).sort();
