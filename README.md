@@ -25,6 +25,22 @@ For a detailed write-up of the approach, decisions, and AI usage, see [JOURNEY.m
 - **Google API key** for the AI steps  
   Get one here: https://aistudio.google.com/api-keys
 
+## Run with Docker
+
+1. Create a `.env` file in the repo root:
+   ```
+   GOOGLE_API_KEY=your_actual_key_here
+   ```
+
+2. Build and run all services:
+   ```
+   docker compose up --build
+   ```
+
+3. Open the dashboard:
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:8000
+
 ## Local Setup (no Docker)
 
 1. Create a `.env` file in the repo root:
@@ -62,21 +78,5 @@ For a detailed write-up of the approach, decisions, and AI usage, see [JOURNEY.m
    ```
 
 6. Open the dashboard:
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:8000
-
-## Run with Docker
-
-1. Create a `.env` file in the repo root:
-   ```
-   GOOGLE_API_KEY=your_actual_key_here
-   ```
-
-2. Build and run all services:
-   ```
-   docker compose up --build
-   ```
-
-3. Open the dashboard:
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:8000
