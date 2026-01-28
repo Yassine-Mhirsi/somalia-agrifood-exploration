@@ -9,6 +9,10 @@ A small end-to-end prototype that integrates Somalia agrifood datasets (food pri
 - Exposes the integrated dataset through a FastAPI backend.
 - Visualizes trends, regional comparisons, and indicators in a Next.js dashboard.
 
+## Project journey
+
+For a detailed write-up of the approach, decisions, and AI usage, see `JOURNEY.md`.
+
 ## Prerequisites
 
 - Python 3.11+
