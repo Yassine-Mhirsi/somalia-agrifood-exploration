@@ -8,6 +8,7 @@ import LineChart from "./charts/LineChart";
 import BarChart from "./charts/BarChart";
 import CropProductionBarChart from "./charts/CropProductionBarChart";
 import ProductionVsPriceScatter from "./charts/ProductionVsPriceScatter";
+import NutritionStats from "@/components/NutritionStats";
 
 export default function Dashboard() {
   const {
@@ -172,6 +173,9 @@ export default function Dashboard() {
             />
           </Card>
         </div>
+
+        {/* Nutrition Statistics */}
+        <NutritionStats rawData={rawData} />
 
         {/* Footer */}
         <footer className="mt-8 text-center text-sm text-zinc-500 dark:text-zinc-400">
