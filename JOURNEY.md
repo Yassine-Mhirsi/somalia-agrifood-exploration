@@ -105,6 +105,12 @@ Key files:
 
 This feature helps users interpret the visuals quickly and demonstrates practical use of multimodal AI in the workflow.
 
+## Architecture diagram
+
+![Architecture diagram](architecture_diagram.png)
+
+Created with Excalidraw: https://excalidraw.com/
+
 ## Closing note
 
 The most time‑consuming part was curating a meaningful dataset trio. Once that foundation was set, I focused on building a clean, reproducible pipeline, a minimal API, and a dashboard with a small but useful AI enhancement.
