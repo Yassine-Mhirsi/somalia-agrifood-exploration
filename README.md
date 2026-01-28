@@ -11,7 +11,7 @@ A small end-to-end prototype that integrates Somalia agrifood datasets (food pri
 
 ## Project journey
 
-For a detailed write-up of the approach, decisions, and AI usage, see `JOURNEY.md`.
+For a detailed write-up of the approach, decisions, and AI usage, see [journey.md](journey.md).
 
 ## Prerequisites
 
