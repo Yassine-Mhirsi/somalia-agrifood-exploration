@@ -41,6 +41,31 @@ For a detailed write-up of the approach, decisions, and AI usage, see [JOURNEY.m
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:8000
 
+## CI/CD & Cloud Deployment (Render)
+
+This project includes a full CI/CD pipeline:
+
+- **CI** – GitHub Actions runs linting (`ruff`) and Docker build checks on every push and PR to `main`.
+- **CD** – Render auto-deploys the backend and frontend from `main` using the [`render.yaml`](render.yaml) blueprint.
+
+### Live URLs (after deployment)
+
+| Service  | URL |
+|----------|-----|
+| Backend  | `https://somalia-agrifood-backend.onrender.com` |
+| Frontend | `https://somalia-agrifood-frontend.onrender.com` |
+
+### Deploy to Render (one-time setup)
+
+1. Push `render.yaml` to the `main` branch.
+2. Go to [render.com](https://render.com) and sign in with GitHub.
+3. Click **New** > **Blueprint** and connect this repository.
+4. Render detects `render.yaml` and creates both services automatically.
+5. In the **somalia-agrifood-backend** service settings, add the `GOOGLE_API_KEY` secret.
+6. Trigger a manual deploy or push a new commit — both services go live.
+
+> **Note:** Render's free tier spins services down after 15 minutes of inactivity. The first request after idle takes ~30-60 seconds while the ETL runs and the server starts.
+
 ## Local Setup (no Docker)
 
 1. Create a `.env` file in the repo root:

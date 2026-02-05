@@ -17,6 +17,11 @@ COPY . .
 # Delete local .npmrc
 RUN rm -f .npmrc
 
+# Accept API URL at build time (Render passes env vars as Docker build args)
+# Default keeps local docker-compose working as-is
+ARG NEXT_PUBLIC_API_URL=http://localhost:8000
+ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
+
 # Build 
 RUN pnpm build
 

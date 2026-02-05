@@ -1,0 +1,30 @@
+# Combined ETL + Backend image for Render cloud deployment
+# Local development still uses the separate etl/Dockerfile and backend/Dockerfile via docker-compose
+FROM ghcr.io/astral-sh/uv:python3.11-bookworm-slim
+
+WORKDIR /app
+
+# Increase timeout for slow connections
+ENV UV_HTTP_TIMEOUT=300
+
+# Install dependencies
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-install-project
+
+# Copy ETL code + raw data
+COPY etl ./etl
+COPY data/raw ./data/raw
+
+# Copy backend code
+COPY backend ./backend
+
+# Prepare processed data directory
+RUN mkdir -p data/processed
+
+# Copy entrypoint script
+COPY entrypoint.sh ./
+RUN chmod +x entrypoint.sh
+
+EXPOSE 8000
+
+ENTRYPOINT ["./entrypoint.sh"]

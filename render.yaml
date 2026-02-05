@@ -1,0 +1,25 @@
+# Render Blueprint – Infrastructure as Code
+# Deploy with: Render Dashboard > New > Blueprint > Connect this repo
+# Render auto-detects this file and provisions both services.
+
+services:
+  # ── Backend (ETL + FastAPI) ──────────────────────────────────────────
+  - type: web
+    name: somalia-agrifood-backend
+    runtime: docker
+    dockerfilePath: Dockerfile.render
+    plan: free
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false # enter manually in Render dashboard
+
+  # ── Frontend (Next.js) ──────────────────────────────────────────────
+  - type: web
+    name: somalia-agrifood-frontend
+    runtime: docker
+    dockerfilePath: frontend/Dockerfile
+    dockerContext: ./frontend
+    plan: free
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://somalia-agrifood-backend.onrender.com
