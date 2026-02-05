@@ -1,3 +1,5 @@
+"use client";
+
 import { ReactNode, useRef, useState } from "react";
 import { toPng } from "html-to-image";
 import AIAnalysisModal from "./AIAnalysisModal";
