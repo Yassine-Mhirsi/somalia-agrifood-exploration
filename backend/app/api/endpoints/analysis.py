@@ -25,16 +25,27 @@ async def analyze_visualization(request: AnalysisRequest):
 
     base64_image = request.image.split(",", 1)[1]
 
-    def stream_response():
+    try:
+        stream = stream_visualization_analysis(
+            base64_image=base64_image,
+            title=request.title,
+            chart_type=request.chartType,
+        )
         try:
-            for chunk in stream_visualization_analysis(
-                base64_image=base64_image,
-                title=request.title,
-                chart_type=request.chartType,
-            ):
+            first_chunk = next(stream)
+        except StopIteration:
+            first_chunk = ""
+    except RuntimeError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+    def stream_response():
+        if first_chunk:
+            yield first_chunk
+        try:
+            for chunk in stream:
                 yield chunk
-        except RuntimeError as exc:
-            raise HTTPException(status_code=500, detail=str(exc)) from exc
         except Exception as exc:
             yield f"\n\n[error] {exc}"
 
